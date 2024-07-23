@@ -17,7 +17,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:row-reverse; /* estudar em casa*/
     overflow: hidden; /*estudar em casa*/
     width: 800px;
     height: 320px;
