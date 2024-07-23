@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#image-form{
+    display: none;
+    /* height: inherit;
+    background-image: url(../imagens/login-img.jpg);
+    width: 50%;
+    background-position: right;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border-radius: 0 16px 16px 0; */
+}
