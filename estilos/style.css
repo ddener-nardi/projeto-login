@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #483924, #43281c, #c06e52);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 320px;
+    /* box-shadow: 2px 1px 10px rgba(255, 255, 255, 0.267); */
+    border-radius: 16px;
+    background-color: rgba(7, 7, 7, 0.329);   
+}
+#form{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#form h1{
+    text-align:center;
+    color: white;
+}
+#form .paragraph{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    width: 100%; 
+    outline: none;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.322);
+    border: none;
+    border-radius: 4px;   
+}
+.btn1{
+    background-color: #acacad;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 9px;
+
+}
+.btn1:hover{
+    background-color: #616161 ;
+}
+.btn2{
+    background-color: #f4f4f6;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 9px;
+}
+.btn2:hover{
+    background-color: #313131;
+    color: #f4f4f6;
+    font-weight: bolder;
+}
+#image-form{
+    height: inherit;
+    background-image: url(../imagens/login-img.jpg);
+    width: 50%;
+    background-position: right;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border-radius: 0 16px 16px 0;
+}
+
+

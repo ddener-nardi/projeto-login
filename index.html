@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Faça o Login</title>
+
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <h1>Faça seu Login</h1>
+            <p class="paragraph">Seja bem-vindo(a)! Faça login para acessar seu conteúdo e gerenciar seu ambiente.</p>
+            <form action="cadastro.php" method="get">
+                <p>
+                    <label for="inome" ></label>
+                    <input type="text" name="nome" id="inome"  required min="5" max="15" placeholder="Nome">
+                </p>
+                <p>
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha"  placeholder="Senha" required>
+                </p>
+                <p>
+                    <input class="btn1" type="submit" value="Entrar">
+                </p>
+                <p>
+                    <input class="btn2" type="submit" value="Esqueceu a senha?">
+                </p>
+            </form>
+        </div>
+        <div id="image-form">
+            <!-- <img src="imagens/login-img.jpg"  alt=""> -->
+        </div>
+    </div>
+    
+</body>
+</html>
