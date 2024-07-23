@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+body{
+    background-color: #43281c;
+    background-image: none;
+}
 #image-form{
     display: none;
     /* height: inherit;
